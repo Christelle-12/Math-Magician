@@ -18,7 +18,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-# 📖 Leaderboard-App <a name="Math-Magician"></a>
+# 📖 Math-magician-App <a name="Math-Magician"></a>
 
 ## HTML+CSS Setup
 
