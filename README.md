@@ -63,6 +63,7 @@ In order to run this project you need:
 <ul>
   <li>Vs code</li>
   <li>npm packages</li>
+  <li>Install React</li>
 </ul>
 
 
@@ -94,9 +95,9 @@ git clone https://github.com/Christelle-12/math-magician.git
 To run tests, run the following command:
 
 <ul>
-<li>run npm i</li>
-<li>run npm build</li>
-<li>npm run dev </li>
+<li>run npm start</li>
+<!-- <li>run npm build</li>
+<li>npm run dev </li> -->
 </ul>
 
 ### Run Tests
@@ -127,7 +128,7 @@ to run tests, run the following command
 
 ## Future Features
 -[ ]**Transitions using CSS**
-- [ ] **[Make it more user friendly]**
+- [ ] **[Build a calculator]**
 - [ ] **[Add Css animations]**
 - [ ] **[Add Animations Features]**
 - [ ] **[Add Css transitions]**
