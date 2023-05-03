@@ -128,7 +128,7 @@ to run tests, run the following command
 
 ## Future Features
 -[ ]**Transitions using CSS**
-- [ ] **[Build a calculator]**
+- [ ] **[Build calculator functionality]**
 - [ ] **[Add Css animations]**
 - [ ] **[Add Animations Features]**
 - [ ] **[Add Css transitions]**
