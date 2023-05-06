@@ -22,8 +22,7 @@
 
 ## HTML+CSS Setup
 
-**Math-magician** is a single page web application that consist three pages one of a calculator,home page and quote page ,this app will be allowing the user to use the calculator and be able to perform all math operations.To achieve this I used React framework.
-<!-- ![image](https://user-images.githubusercontent.com/105784335/233406404-a537faf6-231c-4817-949d-a51081196b2e.png) --> -->
+**Math-magician** is a single page web application that consist three pages one of a calculator,home page and quote page ,this app will be allowing the user to use the calculator and be able to perform all math operations, also it has a friendship quote underneath the calculator fetched using API Ninjas.To achieve this I used React framework.
 
 ## 🛠 Built With <a name="built-with"></a>
 This project is built with:
