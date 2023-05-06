@@ -11,7 +11,7 @@
   display: flex;
   height: 3rem;
   align-items: flex-end;
-  background-color: gray;
+  background-color: rgb(179, 169, 169);
   justify-content: flex-end;
   padding-right: 2px;
 }
@@ -47,4 +47,16 @@
 
 .operators:hover {
   border-top: 2px solid rgb(20, 19, 19);
+}
+
+.q-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ul li {
+  list-style-type: none;
+  align-self: center;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
