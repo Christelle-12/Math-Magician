@@ -130,7 +130,6 @@ to run tests, run the following command
 - Twitter: [@Chr1Nirere](https://twitter.com/Chr1Nirere)
 - LinkedIn :[LinkedIn](https://www.linkedin.com/in/nirere-marie-christelle-9b139823b/)
 
-## :handshake: Contributing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
