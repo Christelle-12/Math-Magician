@@ -48,11 +48,13 @@
 .operators:hover {
   border-top: 2px solid rgb(20, 19, 19);
 }
-.q-container{
+
+.q-container {
   display: flex;
   justify-content: center;
 }
-.ul li{
+
+.ul li {
   list-style-type: none;
   align-self: center;
   font-size: 1.5rem;
