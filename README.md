@@ -26,6 +26,12 @@
 <!-- ![image](https://user-images.githubusercontent.com/105784335/233406404-a537faf6-231c-4817-949d-a51081196b2e.png) --> -->
 
 ## 🛠 Built With <a name="built-with"></a>
+This project is built with:
+
+- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
@@ -47,14 +53,18 @@
 ## Key Features
 - **Single Page Application**
 - **Math calculation**
+- **Fetch API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get the content of this application project locally you need to runfollow  these step in your terminal:
 
-To get a local copy up and running, follow these steps.
+- `cd math-magician`
+- `npm install` To download all the dependancies of the project
+- Use `npm start` to run the app in your browser
 
 ### Prerequisites
 
@@ -121,7 +131,7 @@ to run tests, run the following command
 - Twitter: [@Chr1Nirere](https://twitter.com/Chr1Nirere)
 - LinkedIn :[LinkedIn](https://www.linkedin.com/in/nirere-marie-christelle-9b139823b/)
 
-
+## :handshake: Contributing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
