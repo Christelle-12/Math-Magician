@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
+  <div className="home-cont">
     <h1>Welcome to Math Magician!</h1>
     <p>
       Math Magician is a website that offers various mathematical tools and

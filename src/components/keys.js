@@ -15,6 +15,7 @@ export default function Buttons() {
 
   return (
     <div className="calculator">
+      <div className="textcal">Let&apos;do math</div>
       <div className="wrapper">
         <input
           className="zero"
