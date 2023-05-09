@@ -28,7 +28,7 @@ export default function Buttons() {
             AC
           </button>
           <button className="button-keys" type="button" onClick={calculation}>
-            &#177;
+            +/-
           </button>
           <button className="button-keys" type="button" onClick={calculation}>
             &#37;
