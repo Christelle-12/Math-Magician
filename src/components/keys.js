@@ -15,10 +15,10 @@ export default function Buttons() {
 
   return (
     <div className="calculator">
+      <div className="textcal">
+        <p>Let&apos;s do math</p>
+      </div>
       <div className="wrapper">
-        <div className="textcal">
-          <p>Let&apos;do math</p>
-        </div>
         <input
           className="zero"
           type="text"
@@ -83,7 +83,11 @@ export default function Buttons() {
             </button>
           </div>
           <div className="containers">
-            <button className="button-keys z" type="button" onClick={calculation}>
+            <button
+              className="button-keys z"
+              type="button"
+              onClick={calculation}
+            >
               0
             </button>
             <button className="button-keys" type="button" onClick={calculation}>
