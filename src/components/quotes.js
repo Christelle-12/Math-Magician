@@ -27,7 +27,7 @@ const Quotes = () => {
   }, []);
 
   if (error || quotes.length === 0) {
-    return <div>Error occurred or no quotes available.</div>;
+    return <div>Please wait I am loading...</div>;
   }
 
   if (loading) {

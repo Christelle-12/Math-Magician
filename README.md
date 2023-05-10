@@ -135,11 +135,12 @@ to run tests, run the following command
 
 
 ## Future Features
--[ ]**Transitions using CSS**
-- [ ] **[Build calculator functionality]**
+
+- [ ] **[Add Transitions using CSS]**
+
 - [ ] **[Add Css animations]**
 - [ ] **[Add Animations Features]**
-- [ ] **[Add Css transitions]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
