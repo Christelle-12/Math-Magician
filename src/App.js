@@ -16,20 +16,25 @@ function App() {
   return (
     <Router>
       <ul className="nav-unlisted">
-        <li>
-          <NavLink to="/" activeClassName="current" exact>
-            Home
-          </NavLink>
+        <li className="welcome">
+          <p>Welcome to Math Magician!</p>
         </li>
-        <li>
-          <NavLink to="/calculator" activeClassName="current" exact>
-            Calculator
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/quotes" activeClassName="current" exact>
-            Quotes
-          </NavLink>
+        <li className="link-cont">
+          <li className="links">
+            <NavLink to="/" activeClassName="current" exact>
+              Home
+            </NavLink>
+          </li>
+          <li className="links">
+            <NavLink to="/calculator" activeClassName="current" exact>
+              Calculator
+            </NavLink>
+          </li>
+          <li className="links">
+            <NavLink to="/quotes" activeClassName="current" exact>
+              Quotes
+            </NavLink>
+          </li>
         </li>
       </ul>
 

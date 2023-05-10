@@ -24,10 +24,9 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +38,27 @@
   justify-content: flex-start;
   align-self: flex-start;
   margin-top: 0;
+  padding-left: 10px;
+  font-size: 2.1rem;
+  font-weight: 600;
+  animation: upDownAnimation 5s infinite alternate;
+}
+
+@keyframes upDownAnimation {
+  0% {
+    transform: translateY(0);
+    color: orangered;
+  }
+
+  50% {
+    transform: translateY(5rem);
+    color: blue;
+  }
+
+  100% {
+    transform: translateY(0);
+    color: indianred;
+  }
 }
 
 .container {
@@ -46,17 +66,16 @@
   height: 5rem;
 }
 
-
 .container button:hover {
   border-bottom: 2px solid rgb(65, 63, 63);
 }
 
 .containers {
-  display: flex
+  display: flex;
 }
-.button-keys.z{
+
+.button-keys.z {
   flex-grow: 2;
- 
 }
 
 .button-keys {
@@ -82,7 +101,7 @@
 .q-container {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   height: 80vh;
 }
 
@@ -98,12 +117,6 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-
-  /* align-items: center; */
-}
-
-.home-cont {
-  display: flex;
   justify-content: flex-start;
 }
 
@@ -111,12 +124,23 @@
   width: 60%;
   display: flex;
   align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2rem;
 }
 
-/* styles.css */
 .nav-unlisted {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.welcome p {
+  font-size: 2.5rem;
+}
+
+.link-cont {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-unlisted a {
@@ -131,7 +155,6 @@
 }
 
 .nav-unlisted li {
-  color: red;
   margin: 0 0.8rem;
   font-size: 1.3rem;
   position: relative;
