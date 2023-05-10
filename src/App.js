@@ -1,42 +1,21 @@
+// App.js
+
 import React from 'react';
 import {
-  BrowserRouter as Router, Route, NavLink, Routes,
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Routes,
 } from 'react-router-dom';
-import styled from 'styled-components';
+import './index.css';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Quotes from './components/quotes';
 
-const NavUnlisted = styled.ul`
-  display: flex;
-  a {
-    text-decoration: none;
-    color: #000;
-  }
-  a:hover {
-    color: green;
-    cursor: pointer;
-    border: 2px solid white
-  }
-  li {
-    color: red;
-    margin: 0 0.8rem;
-    font-size: 1.3rem;
-    position: relative;
-    list-style: none;
-  }
-  .current {
-    li {
-      border-bottom: 2px solid black;
-    }
-    
-  }
-`;
-
 function App() {
   return (
     <Router>
-      <NavUnlisted>
+      <ul className="nav-unlisted">
         <li>
           <NavLink to="/" activeClassName="current" exact>
             Home
@@ -52,7 +31,7 @@ function App() {
             Quotes
           </NavLink>
         </li>
-      </NavUnlisted>
+      </ul>
 
       <Routes>
         <Route path="/" element={<Home />} />

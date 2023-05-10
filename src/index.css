@@ -1,6 +1,3 @@
-/* *{
-  background: rgb(41, 46, 44) url("./images/math-bck.jpg") cover no-repeat;
-} */
 * {
   background-color: rgb(212, 203, 203);
 }
@@ -25,22 +22,39 @@
 }
 
 .wrapper {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  position: absolute;
-
-  /* width: 60%; */
+  /* width: 100%; */
+  height: 100%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
-
-.textcalc {
+.box{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.container button {
+.container1 {
+  /* display: flex; */
+  /* align-self: center;
+  width: 30rem; */
+}
+
+.textcal {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 100%;
+}
+
+/* .container button {
   width: 50px;
   height: 4rem;
-}
+} */
 
 .container button:hover {
   border-bottom: 2px solid rgb(65, 63, 63);
@@ -48,12 +62,19 @@
 
 .containers {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 50px 50px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.button-keys.z{
+  background-color: white;
+  
+
+
 }
 
 .button-keys {
   background-color: burlywood;
+  width: 6rem;
 }
 
 .containers button:hover {
@@ -62,6 +83,7 @@
 
 .operators {
   background-color: orangered;
+  width: 6rem;
 }
 
 .operators:hover {
@@ -87,11 +109,46 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  align-items: center;
+
+  /* align-items: center; */
+}
+
+.home-cont {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .home-cont p {
   width: 60%;
   display: flex;
-  align-items: center;
+  align-self: center;
+}
+
+/* styles.css */
+.nav-unlisted {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-unlisted a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-unlisted a:hover {
+  color: green;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.nav-unlisted li {
+  color: red;
+  margin: 0 0.8rem;
+  font-size: 1.3rem;
+  position: relative;
+  list-style: none;
+}
+
+.nav-unlisted .current li {
+  border-bottom: 2px solid black;
 }
