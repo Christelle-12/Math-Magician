@@ -2,7 +2,8 @@
 # 📗 Table of Contents
 
 - [📖 Math-Magician](#about-project)
-  - [🛠 Built With](#built-with)
+- [🚀 Screenshot](#screenshot)
+- [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
@@ -23,15 +24,17 @@
 ## HTML+CSS Setup
 
 **Math-magician** is a single page web application that consist three pages one of a calculator,home page and quote page ,this app will be allowing the user to use the calculator and be able to perform all math operations, also it has a friendship quote underneath the calculator fetched using API Ninjas.To achieve this I used React framework.
-
+## 🚀 Screenshot <a name="screenshot"></a>
+![image](https://github.com/Christelle-12/math-magician/assets/105784335/cad3819b-d665-4d0d-988c-318290d3e5e5)
+![image](https://github.com/Christelle-12/math-magician/assets/105784335/94594a71-0437-4e92-83c8-a8a247a466f1)
+## 🚀 Live Demo <a name ="live"></a>
+[live demo](https://math-magician-project-uvvk.onrender.com)
 ## 🛠 Built With <a name="built-with"></a>
 This project is built with:
 
 - ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
 - ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
-
-[live demo](https://math-magician-project-uvvk.onrender.com)
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
