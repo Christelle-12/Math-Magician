@@ -31,6 +31,7 @@ This project is built with:
 - ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 
+[live demo](https://math-magician-project-uvvk.onrender.com)
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
